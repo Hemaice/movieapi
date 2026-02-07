@@ -1,5 +1,5 @@
-# Use Maven + JDK image
-FROM maven:3.9.12-jdk-17
+# Use Maven + JDK 17 image
+FROM maven:3.9.1-eclipse-temurin-17
 
 # Set working directory
 WORKDIR /app
